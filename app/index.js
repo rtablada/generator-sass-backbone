@@ -72,13 +72,11 @@ ProjectGenerator.prototype.project = function project() {
   var copyDir = [
     'public',
     'sass',
-    'src',
   ];
   var _this = this;
 
   this.template('_package.json', 'package.json');
   this.copy('Brocfile.js', 'Brocfile.js');
-  this.copy('.jshintrc', '.jshintrc');
   this.copy('_.gitignore', '.gitignore');
 
   copyDir.forEach(function(file) {
