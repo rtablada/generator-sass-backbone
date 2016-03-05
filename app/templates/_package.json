@@ -1,0 +1,22 @@
+{
+  "name": "<%= utils.slug(projectName) %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "normalize-css": "^2.3.1",
+    "yoga-sass": "^1.0.1"
+  },
+  "devDependencies": {
+    "broccoli": "^0.16.9",
+    "broccoli-inject-livereload": "^0.2.0",
+    "broccoli-merge-trees": "^1.1.1",
+    "broccoli-sass": "^0.7.0"
+  }
+}
