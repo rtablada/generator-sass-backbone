@@ -71,7 +71,7 @@ ProjectGenerator.prototype.prompts = function prompts() {
 ProjectGenerator.prototype.project = function project() {
   var copyDir = [
     'public',
-    'sass',
+    'styles',
   ];
   var _this = this;
 
