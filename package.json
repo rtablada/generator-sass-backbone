@@ -1,7 +1,7 @@
 {
-  "name": "generator-backbone-broccoli",
-  "version": "1.4.1",
-  "description": "A Yeoman generator for ES6 Projects using Backbone and Broccoli",
+  "name": "generator-sass-broccoli",
+  "version": "1.0.0",
+  "description": "A Yeoman generator for SASS Projects Broccoli",
   "files": [
     "app"
   ],
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtablada/generator-backbone-broccoli.git"
+    "url": "git+https://github.com/rtablada/generator-sass-broccoli.git"
   },
   "bugs": {
-    "url": "https://github.com/rtablada/generator-backbone-broccoli/issues"
+    "url": "https://github.com/rtablada/generator-sass-broccoli/issues"
   },
-  "homepage": "https://github.com/rtablada/generator-backbone-broccoli#readme"
+  "homepage": "https://github.com/rtablada/generator-sass-broccoli#readme"
 }
