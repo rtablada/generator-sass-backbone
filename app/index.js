@@ -70,12 +70,12 @@ ProjectGenerator.prototype.prompts = function prompts() {
 
 ProjectGenerator.prototype.project = function project() {
   var copyDir = [
-    'public',
     'styles',
   ];
   var _this = this;
 
   this.template('_package.json', 'package.json');
+  this.template('_sass-lint.yml', 'sass-lint.yml');
   this.template('public/index.html', 'public/index.html');
   this.copy('Brocfile.js', 'Brocfile.js');
   this.copy('_.gitignore', '.gitignore');
