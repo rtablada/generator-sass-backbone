@@ -12,7 +12,7 @@ files:
 rules:
   # Class names should follow BEM
   class-name-format:
-    - 2
+    - 1
     -
       convention: hyphenatedbem
   # No styling id selectors
@@ -21,7 +21,7 @@ rules:
   no-important: 2
   # Hex values should be lowercase for color picker
   hex-notation:
-    - 2
+    - 1
     -
       style: lowercase
   leading-zero:
@@ -30,11 +30,11 @@ rules:
       include: true
   # Indent by two
   indentation:
-    - 2
+    - 1
     -
       size: 2
   # Properties should be Box, Border, Background, Text, Other
   property-sort-order:
-    - 2
+    - 1
     -
       order: smacss
