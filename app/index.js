@@ -92,7 +92,7 @@ ProjectGenerator.prototype.project = function project() {
     '\n' +
     '\nYour SASS project is ready to go!' +
     '\n' +
-    '\nTo start the server run: npm run serve');
+    '\nTo start the server run: npm start');
 
   }, this);
 
