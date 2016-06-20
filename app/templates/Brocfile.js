@@ -2,7 +2,11 @@ const Merge = require('broccoli-merge-trees');
 const Sass = require('broccoli-sass');
 const LiveReload = require('broccoli-inject-livereload');
 
-const public = new LiveReload('public');
+let pubFiles = new LiveReload('public');
+
+if (process.env.EMBER_ENV === 'production') {
+  pubFiles = 'public';
+}
 
 const stylePaths = [
   'styles',
@@ -13,4 +17,4 @@ const stylePaths = [
 
 const styles = new Sass(stylePaths, 'app.scss', 'app.css');
 
-module.exports = new Merge([public, styles]);
+module.exports = new Merge([pubFiles, styles]);
