@@ -84,6 +84,12 @@ ProjectGenerator.prototype.project = function project() {
     _this.bulkDirectory(file, file);
   });
 
+  this.composeWith('git-init', {
+    options: { commit: 'Generated Broccoli Browserify Project' }
+  }, {
+    local: require.resolve('generator-git-init')
+  });
+
   // This callback is fired when the generator has completed,
   // and includes instructions on what to do next.
   var done = _.bind(function done() {

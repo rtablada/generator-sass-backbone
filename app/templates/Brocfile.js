@@ -12,9 +12,7 @@ if (process.env.EMBER_ENV === 'production') {
 
 const stylePaths = [
   'styles',
-  'node_modules/normalize-css',
-  'node_modules/font-awesome/scss',
-  'node_modules/yoga-sass/assets',
+  'node_modules',
 ];
 
 const compiledSass = new Sass(stylePaths, 'app.scss', 'app.css');
